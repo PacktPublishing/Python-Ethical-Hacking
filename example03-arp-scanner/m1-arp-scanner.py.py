@@ -1,6 +1,7 @@
 from scapy.all import Ether, ARP, srp
 
 if __name__ == "__main__":
+
     broadcast = "FF:FF:FF:FF:FF:FF"
     ether_layer = Ether(dst = broadcast)
     ip_range = "192.168.74.1/24"
